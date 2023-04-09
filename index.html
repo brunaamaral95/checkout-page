@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Finalize sua Compra</title>
+</head>
+
+<body>
+    <header>
+        <h3>Finalize sua compra</h3>
+      </header>
+    
+      <main>
+        
+        <section class="checkout-form">
+          <form action="#!" method="get">
+            <h6>Informações de Contato</h6>
+            <div class="form-control">
+              <label for="checkout-email">E-mail</label>
+              <div>
+                <span class="fa fa-envelope"></span>
+                <input type="email" id="checkout-email" name="checkout-email" placeholder="Digite seu E-mail...">
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="checkout-phone">Telefone</label>
+              <div>
+                <span class="fa fa-phone"></span>
+                <input type="tel" name="checkout-phone" id="checkout-phone" placeholder=" Digite seu Telefone...">
+              </div>
+            </div>
+            <br>
+            <h6>Endereço para Envio</h6>
+            <div class="form-control">
+              <label for="checkout-name">Nome completo</label>
+              <div>
+                <span class="fa fa-user"></span>
+                <input type="text" id="checkout-name" name="checkout-name" placeholder="Digite seu nome...">
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="checkout-address">Endereço</label>
+              <div>
+                <span class="fa fa-home"></span>
+                <input type="text" name="checkout-address" id="checkout-address" placeholder="Digite seu Endereço...">
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="checkout-city">Cidade</label>
+              <div>
+                <span class="fa fa-city"></span>
+                <input type="text" name="checkout-city" id="checkout-city" placeholder="Digite sua cidade...">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-control">
+                <label for="checkout-country">País</label>
+                <div>
+                  <span class="fa fa-country"></span>
+                  <input type="text" name="checkout-country" id="checkout-country" placeholder="Digite seu País..." list="country-list">
+                  <datalist id="country-list">
+                    <option value="Brasil"></option>
+                    <option value="USA"></option>
+                    <option value="Russia"></option>
+                    <option value="China"></option>
+                    <option value="Portugal"></option>
+                    <option value="Alemanha"></option>
+                    <option value="Canadá"></option>
+                    <option value="Índia"></option>
+                    <option value="Argentina"></option>
+                    <option value="Inglaterra"></option>
+                    <option value="Espanha"></option>
+                    <option value="Austrália"></option>
+                  </datalist>
+                </div>
+              </div>
+              <div class="form-control">
+                <label for="checkout-postal">CEP</label>
+                <div>
+                  <span class="fa fa-numeric"></span>
+                  <input type="numeric" name="checkout-postal" id="checkout-postal" placeholder="Digite seu CEP...">
+                </div>
+              </div>
+            </div>
+            <div class="form-control checkbox-control">
+              <input type="checkbox" name="checkout-checkbox" id="checkout-checkbox">
+              <label for="checkout-checkbox">Deseja salvar esta informação para próxima compra?</label>
+            </div>
+            <div class="form-control-btn">
+              <button>Continue</button>
+            </div>
+          </form>
+        </section>
+      </main>
+      
+
+
+
+
+</body>
+
+</html>
